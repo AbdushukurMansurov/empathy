@@ -1,0 +1,150 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1140px;
+    margin: 10px auto;
+       
+}
+.image{
+    position: absolute; 
+    top:-150px;
+    left:120px ;  
+    z-index: 1; 
+    background-image: url(./img/image\ 1.png);
+    width: 900px;
+    height: 250px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.not_btn{
+    margin-top: 50px;
+    padding: 10px 50px ;
+    border: 1px solid white;
+    border-radius: 300px;
+    text-align: center;
+}
+.juke{    
+    width: 600px;
+    margin: -20px;
+}
+.manaman{
+    width: 700px;
+    margin: 20px;
+}
+.container1{
+    width: 1140px;
+    margin: -10px auto;
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(255, 212, 131);
+    position: relative; 
+     
+}
+.m{
+    margin: -50px 0 0 0;
+    height: 400px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0 0 0;
+}
+.yoz{
+    font-size: 50px;
+}
+.li{
+    margin-right: 30px;
+}
+.ul{
+    list-style: none;
+    gap: 30px;
+    display: flex;
+    align-items: center;
+}
+.header_h2{
+   font-size: 30px; 
+   margin-left: 20px;  
+}
+.left,.right{
+    width: 550px;
+    margin: 50px 0 0 0;    
+}
+img{
+    width: 100%;
+}
+.left_right{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 200px;
+}
+.pubg{
+    margin: 30px 0 0 0;
+}
+.kl{
+    margin:70px 0 0 0 ;
+    width: 450px;
+    height: 40px;
+    background-color: white;
+    border-radius: 40px; 
+    padding: 5px;
+    color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.btn{
+    width: 150px;
+    height: 30px;
+    border: none;
+    background-color: black;
+    border-radius:40px ;
+    color: white;
+}
+.headf{
+    width: 1140px;
+    margin: 0 auto;
+    background-color: rgb(220, 218, 218);
+    
+}
+.lku1{
+    margin: 300px 0 0 40px;
+    margin-bottom: 300px;
+    margin-left: 200px;
+}
+.traiding{
+    margin: 250px 0 0 0;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+}
+.traiding2{
+    margin: 50px 0 0 0;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+}
+.box,.box2{
+    width: 50%;
+}
+.one{
+    margin-right: 15px;
+    color: white;
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.poiy{
+    width: 550px;
+}
